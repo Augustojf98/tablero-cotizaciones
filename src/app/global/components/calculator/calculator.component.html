@@ -1,0 +1,12 @@
+
+<div class="container">
+    <div class="quoteBox">
+        <div [formGroup]="calculatorForm" style="border: none; padding: 0;">
+            <div *ngFor="let control of quoteTypes">
+                <label [formControlName]="control.nombre">{{control.nombre}}</label>
+                <br />
+                <input [formControlName]="control.nombre">
+            </div>
+        </div>
+    </div>
+</div>

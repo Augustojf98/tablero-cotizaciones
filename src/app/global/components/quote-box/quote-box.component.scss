@@ -1,0 +1,22 @@
+.quoteBox{
+    border-radius: 3.5px;
+    border: solid lightgray;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    div{
+        text-align: center;
+        margin: 5%;
+        padding: 5%;
+        font-size: 150%;
+        font-weight: bold;
+        border-bottom: solid;
+        border-top: solid;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .quoteBox{
+        width: 100%;
+    }
+}

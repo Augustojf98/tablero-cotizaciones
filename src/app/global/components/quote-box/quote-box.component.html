@@ -1,0 +1,8 @@
+
+<div class="container">
+    <div class="quoteBox">
+        <div [ngStyle]="{'background': lastQuote.color}" *ngFor="let lastQuote of lastQuotes">
+            {{lastQuote?.nombre}} - {{lastQuote?.valor | number:'0.2-2'}}
+        </div>
+    </div>
+</div>
